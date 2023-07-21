@@ -22,16 +22,22 @@
                         <h1>Let's do this!</h1>
                         <form action="#" method="post">
                             <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <input type="text" id="first-name" name="first-name" required>
 
                             <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="last-name">
+                            <input type="text" id="last-name" name="last-name" required>
 
                             <label for="user-email">Email</label>
-                            <input type="email" id="user-email" name="email">
+                            <input type="email" id="user-email" name="email" required>
 
-                            <input type="tel">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
+                            <label for="password">Password</label>
+                            <input type="password" id="passowrd" name="password" required>
+
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
 
                         </form>
                     </section>
