@@ -3,41 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="style.css">
         <title>Sign Up Form</title>
         
         <body>
             <main>
-
-                <img src="">
-
+                <div class="background-picture">
+                    <div class="logo">
+                    <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                    <h1>Sign-up Form</h1>
+                    </div>
+                </div>
                 <div class="right-side">
                     <section>
-                        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-                        <p>Sign up <em>now</em> to get started</p>
+                        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                    
                         <p>You <em>know</em> you want to.</p>    
                     </section>
 
                     <section>
                         <h1>Let's do this!</h1>
                         <form action="#" method="post">
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <div class="form-input">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
 
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <div class="form-input">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
 
-                            <label for="user-email">Email</label>
-                            <input type="email" id="user-email" name="email" required>
+                            <div class="form-input">
+                                <label for="user-email">Email</label>
+                                <input type="email" id="user-email" name="email" required>
+                            </div>
 
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <div class="form-input">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </div>
 
-                            <label for="password">Password</label>
-                            <input type="password" id="passowrd" name="password" required>
+                            <div class="form-input">
+                                <label for="password">Password</label>
+                                <input type="password" id="passowrd" name="password" required>
+                            </div>
 
-                            <label for="confirm-password">Confirm Password</label>
-                            <input type="password" id="confirm-password" name="confirm-password" required>
+                            <div class="form-input">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" id="confirm-password" name="confirm-password" required>
+                            </div>
 
                         </form>
                     </section>
