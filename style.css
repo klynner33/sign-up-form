@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    font-family: "poppins", sans-serif;
 }
 
 .description {
@@ -89,13 +89,17 @@ form {
     height: 8vh;
 }
 
-label {
-    font-size: 1.1rem;
-}
-
 input {
     width: 60%;
     height: 45%;
+    border-radius: 4px;
+    border: 1.5px solid black;
+    text-indent: 8px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(84, 84, 171);
 }
 
 button {
