@@ -72,6 +72,7 @@ div section:nth-child(2) {
 
 section > h1 {
     padding-bottom: 1vh;
+    padding-left: 10px;
 }
 
 form {
@@ -79,7 +80,7 @@ form {
     flex-wrap: wrap;
     gap: 1vw;
     align-items: center;
-    
+    padding-left: 10px;
 }
 
 .form-input {
